@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFBB2E5D1B630FB400C66D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */; };
+		FFBB2E5F1B630FB400C66D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E5E1B630FB400C66D4F /* ViewController.swift */; };
+		FFBB2E621B630FB400C66D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E601B630FB400C66D4F /* Main.storyboard */; };
+		FFBB2E641B630FB400C66D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E631B630FB400C66D4F /* Images.xcassets */; };
+		FFBB2E671B630FB400C66D4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E651B630FB400C66D4F /* LaunchScreen.xib */; };
+		FFBB2E731B630FB400C66D4F /* Earth_MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E721B630FB400C66D4F /* Earth_MemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBB2E6D1B630FB400C66D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBB2E4F1B630FB400C66D4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBB2E561B630FB400C66D4F;
+			remoteInfo = "Earth Memo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFBB2E571B630FB400C66D4F /* Earth Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earth Memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBB2E5B1B630FB400C66D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFBB2E5E1B630FB400C66D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFBB2E611B630FB400C66D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBB2E631B630FB400C66D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFBB2E661B630FB400C66D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FFBB2E6C1B630FB400C66D4F /* Earth MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earth MemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBB2E711B630FB400C66D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBB2E721B630FB400C66D4F /* Earth_MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth_MemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBB2E541B630FB400C66D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBB2E691B630FB400C66D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFBB2E4E1B630FB400C66D4F = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E591B630FB400C66D4F /* Earth Memo */,
+				FFBB2E6F1B630FB400C66D4F /* Earth MemoTests */,
+				FFBB2E581B630FB400C66D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFBB2E581B630FB400C66D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E571B630FB400C66D4F /* Earth Memo.app */,
+				FFBB2E6C1B630FB400C66D4F /* Earth MemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBB2E591B630FB400C66D4F /* Earth Memo */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */,
+				FFBB2E5E1B630FB400C66D4F /* ViewController.swift */,
+				FFBB2E601B630FB400C66D4F /* Main.storyboard */,
+				FFBB2E631B630FB400C66D4F /* Images.xcassets */,
+				FFBB2E651B630FB400C66D4F /* LaunchScreen.xib */,
+				FFBB2E5A1B630FB400C66D4F /* Supporting Files */,
+			);
+			path = "Earth Memo";
+			sourceTree = "<group>";
+		};
+		FFBB2E5A1B630FB400C66D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E5B1B630FB400C66D4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFBB2E6F1B630FB400C66D4F /* Earth MemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E721B630FB400C66D4F /* Earth_MemoTests.swift */,
+				FFBB2E701B630FB400C66D4F /* Supporting Files */,
+			);
+			path = "Earth MemoTests";
+			sourceTree = "<group>";
+		};
+		FFBB2E701B630FB400C66D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFBB2E711B630FB400C66D4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBB2E561B630FB400C66D4F /* Earth Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBB2E761B630FB400C66D4F /* Build configuration list for PBXNativeTarget "Earth Memo" */;
+			buildPhases = (
+				FFBB2E531B630FB400C66D4F /* Sources */,
+				FFBB2E541B630FB400C66D4F /* Frameworks */,
+				FFBB2E551B630FB400C66D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Earth Memo";
+			productName = "Earth Memo";
+			productReference = FFBB2E571B630FB400C66D4F /* Earth Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBB2E6B1B630FB400C66D4F /* Earth MemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBB2E791B630FB400C66D4F /* Build configuration list for PBXNativeTarget "Earth MemoTests" */;
+			buildPhases = (
+				FFBB2E681B630FB400C66D4F /* Sources */,
+				FFBB2E691B630FB400C66D4F /* Frameworks */,
+				FFBB2E6A1B630FB400C66D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBB2E6E1B630FB400C66D4F /* PBXTargetDependency */,
+			);
+			name = "Earth MemoTests";
+			productName = "Earth MemoTests";
+			productReference = FFBB2E6C1B630FB400C66D4F /* Earth MemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBB2E4F1B630FB400C66D4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Noctiz;
+				TargetAttributes = {
+					FFBB2E561B630FB400C66D4F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FFBB2E6B1B630FB400C66D4F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FFBB2E561B630FB400C66D4F;
+					};
+				};
+			};
+			buildConfigurationList = FFBB2E521B630FB400C66D4F /* Build configuration list for PBXProject "Earth Memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBB2E4E1B630FB400C66D4F;
+			productRefGroup = FFBB2E581B630FB400C66D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBB2E561B630FB400C66D4F /* Earth Memo */,
+				FFBB2E6B1B630FB400C66D4F /* Earth MemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBB2E551B630FB400C66D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBB2E621B630FB400C66D4F /* Main.storyboard in Resources */,
+				FFBB2E671B630FB400C66D4F /* LaunchScreen.xib in Resources */,
+				FFBB2E641B630FB400C66D4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBB2E6A1B630FB400C66D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBB2E531B630FB400C66D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBB2E5F1B630FB400C66D4F /* ViewController.swift in Sources */,
+				FFBB2E5D1B630FB400C66D4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBB2E681B630FB400C66D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBB2E731B630FB400C66D4F /* Earth_MemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBB2E6E1B630FB400C66D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBB2E561B630FB400C66D4F /* Earth Memo */;
+			targetProxy = FFBB2E6D1B630FB400C66D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBB2E601B630FB400C66D4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBB2E611B630FB400C66D4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBB2E651B630FB400C66D4F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBB2E661B630FB400C66D4F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBB2E741B630FB400C66D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFBB2E751B630FB400C66D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBB2E771B630FB400C66D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Earth Memo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFBB2E781B630FB400C66D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Earth Memo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFBB2E7A1B630FB400C66D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Earth MemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earth Memo.app/Earth Memo";
+			};
+			name = Debug;
+		};
+		FFBB2E7B1B630FB400C66D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Earth MemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earth Memo.app/Earth Memo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBB2E521B630FB400C66D4F /* Build configuration list for PBXProject "Earth Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBB2E741B630FB400C66D4F /* Debug */,
+				FFBB2E751B630FB400C66D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBB2E761B630FB400C66D4F /* Build configuration list for PBXNativeTarget "Earth Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBB2E771B630FB400C66D4F /* Debug */,
+				FFBB2E781B630FB400C66D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFBB2E791B630FB400C66D4F /* Build configuration list for PBXNativeTarget "Earth MemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBB2E7A1B630FB400C66D4F /* Debug */,
+				FFBB2E7B1B630FB400C66D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBB2E4F1B630FB400C66D4F /* Project object */;
+}
