@@ -7,12 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF852FD21B71D0760003800A /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF852FD11B71D0760003800A /* HelpViewController.swift */; };
 		FFBB2E5D1B630FB400C66D4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */; };
-		FFBB2E5F1B630FB400C66D4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E5E1B630FB400C66D4F /* ViewController.swift */; };
 		FFBB2E621B630FB400C66D4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E601B630FB400C66D4F /* Main.storyboard */; };
 		FFBB2E641B630FB400C66D4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E631B630FB400C66D4F /* Images.xcassets */; };
 		FFBB2E671B630FB400C66D4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBB2E651B630FB400C66D4F /* LaunchScreen.xib */; };
 		FFBB2E731B630FB400C66D4F /* Earth_MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB2E721B630FB400C66D4F /* Earth_MemoTests.swift */; };
+		FFDAA32D1B69C0B700983799 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDAA32C1B69C0B700983799 /* star.png */; };
+		FFE61A971B631AFE0043C86D /* Home_Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61A941B631AFE0043C86D /* Home_Tab.png */; };
+		FFE61A981B631AFE0043C86D /* Location_Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61A951B631AFE0043C86D /* Location_Tab.png */; };
+		FFE61A991B631AFE0043C86D /* Time Tab.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61A961B631AFE0043C86D /* Time Tab.png */; };
+		FFE61A9B1B631DF10043C86D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61A9A1B631DF10043C86D /* WelcomeViewController.swift */; };
+		FFE61AA21B631E2A0043C86D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61A9C1B631E2A0043C86D /* Bolts.framework */; };
+		FFE61AA31B631E2A0043C86D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61A9D1B631E2A0043C86D /* Parse.framework */; };
+		FFE61AA41B631E2A0043C86D /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61A9E1B631E2A0043C86D /* ParseCrashReporting.framework */; };
+		FFE61AA51B631E2A0043C86D /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61A9F1B631E2A0043C86D /* ParseFacebookUtils.framework */; };
+		FFE61AA61B631E2A0043C86D /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AA01B631E2A0043C86D /* ParseFacebookUtilsV4.framework */; };
+		FFE61AA71B631E2A0043C86D /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AA11B631E2A0043C86D /* ParseUI.framework */; };
+		FFE61AA91B631E490043C86D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AA81B631E490043C86D /* CoreLocation.framework */; };
+		FFE61AAB1B631E500043C86D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AAA1B631E500043C86D /* CoreGraphics.framework */; };
+		FFE61AAD1B631E580043C86D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AAC1B631E580043C86D /* CFNetwork.framework */; };
+		FFE61AAF1B631E610043C86D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AAE1B631E610043C86D /* AudioToolbox.framework */; };
+		FFE61AB11B631E6B0043C86D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AB01B631E6B0043C86D /* MobileCoreServices.framework */; };
+		FFE61AB31B631E730043C86D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AB21B631E730043C86D /* QuartzCore.framework */; };
+		FFE61AB51B631E7A0043C86D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AB41B631E7A0043C86D /* Security.framework */; };
+		FFE61AB71B631E820043C86D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AB61B631E820043C86D /* StoreKit.framework */; };
+		FFE61AB91B631E8C0043C86D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AB81B631E8C0043C86D /* SystemConfiguration.framework */; };
+		FFE61ABB1B631E920043C86D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61ABA1B631E920043C86D /* libz.dylib */; };
+		FFE61ABD1B631E9C0043C86D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61ABC1B631E9C0043C86D /* libsqlite3.dylib */; };
+		FFE61ABF1B631EA20043C86D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61ABE1B631EA20043C86D /* Accounts.framework */; };
+		FFE61AC11B631EA90043C86D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE61AC01B631EA90043C86D /* Social.framework */; };
+		FFE61AC31B63215C0043C86D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61AC21B63215C0043C86D /* HomeViewController.swift */; };
+		FFE61AC51B6322830043C86D /* MemoTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61AC41B6322830043C86D /* MemoTimeTableViewController.swift */; };
+		FFE61AC71B63253D0043C86D /* addMemo.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61AC61B63253D0043C86D /* addMemo.png */; };
+		FFE61AC91B63293C0043C86D /* MemoTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61AC81B63293C0043C86D /* MemoTimeTableViewCell.swift */; };
+		FFE61ACB1B632CFF0043C86D /* MemoWriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61ACA1B632CFF0043C86D /* MemoWriteViewController.swift */; };
+		FFE61ACD1B633D3F0043C86D /* Trial01.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61ACC1B633D3F0043C86D /* Trial01.png */; };
+		FFE61ACF1B6343E20043C86D /* MemoLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE61ACE1B6343E20043C86D /* MemoLocationViewController.swift */; };
+		FFE61AD11B63459E0043C86D /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE61AD01B63459E0043C86D /* tabBar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +58,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF852FD11B71D0760003800A /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		FFBB2E571B630FB400C66D4F /* Earth Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Earth Memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBB2E5B1B630FB400C66D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFBB2E5E1B630FB400C66D4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFBB2E611B630FB400C66D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFBB2E631B630FB400C66D4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFBB2E661B630FB400C66D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FFBB2E6C1B630FB400C66D4F /* Earth MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Earth MemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBB2E711B630FB400C66D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFBB2E721B630FB400C66D4F /* Earth_MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth_MemoTests.swift; sourceTree = "<group>"; };
+		FFDAA32C1B69C0B700983799 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		FFE61A941B631AFE0043C86D /* Home_Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_Tab.png; sourceTree = "<group>"; };
+		FFE61A951B631AFE0043C86D /* Location_Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_Tab.png; sourceTree = "<group>"; };
+		FFE61A961B631AFE0043C86D /* Time Tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time Tab.png"; sourceTree = "<group>"; };
+		FFE61A9A1B631DF10043C86D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FFE61A9C1B631E2A0043C86D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = SDKs/Bolts.framework; sourceTree = "<group>"; };
+		FFE61A9D1B631E2A0043C86D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = SDKs/Parse.framework; sourceTree = "<group>"; };
+		FFE61A9E1B631E2A0043C86D /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = SDKs/ParseCrashReporting.framework; sourceTree = "<group>"; };
+		FFE61A9F1B631E2A0043C86D /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = SDKs/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FFE61AA01B631E2A0043C86D /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = SDKs/ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		FFE61AA11B631E2A0043C86D /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = SDKs/ParseUI.framework; sourceTree = "<group>"; };
+		FFE61AA81B631E490043C86D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FFE61AAA1B631E500043C86D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFE61AAC1B631E580043C86D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FFE61AAE1B631E610043C86D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FFE61AB01B631E6B0043C86D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FFE61AB21B631E730043C86D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FFE61AB41B631E7A0043C86D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FFE61AB61B631E820043C86D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FFE61AB81B631E8C0043C86D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FFE61ABA1B631E920043C86D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FFE61ABC1B631E9C0043C86D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FFE61ABE1B631EA20043C86D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FFE61AC01B631EA90043C86D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FFE61AC21B63215C0043C86D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FFE61AC41B6322830043C86D /* MemoTimeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTimeTableViewController.swift; sourceTree = "<group>"; };
+		FFE61AC61B63253D0043C86D /* addMemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addMemo.png; sourceTree = "<group>"; };
+		FFE61AC81B63293C0043C86D /* MemoTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoTimeTableViewCell.swift; sourceTree = "<group>"; };
+		FFE61ACA1B632CFF0043C86D /* MemoWriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoWriteViewController.swift; sourceTree = "<group>"; };
+		FFE61ACC1B633D3F0043C86D /* Trial01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trial01.png; sourceTree = "<group>"; };
+		FFE61ACE1B6343E20043C86D /* MemoLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoLocationViewController.swift; sourceTree = "<group>"; };
+		FFE61AD01B63459E0043C86D /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +107,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE61AC11B631EA90043C86D /* Social.framework in Frameworks */,
+				FFE61ABF1B631EA20043C86D /* Accounts.framework in Frameworks */,
+				FFE61ABD1B631E9C0043C86D /* libsqlite3.dylib in Frameworks */,
+				FFE61ABB1B631E920043C86D /* libz.dylib in Frameworks */,
+				FFE61AB91B631E8C0043C86D /* SystemConfiguration.framework in Frameworks */,
+				FFE61AB71B631E820043C86D /* StoreKit.framework in Frameworks */,
+				FFE61AB51B631E7A0043C86D /* Security.framework in Frameworks */,
+				FFE61AB31B631E730043C86D /* QuartzCore.framework in Frameworks */,
+				FFE61AB11B631E6B0043C86D /* MobileCoreServices.framework in Frameworks */,
+				FFE61AAF1B631E610043C86D /* AudioToolbox.framework in Frameworks */,
+				FFE61AAD1B631E580043C86D /* CFNetwork.framework in Frameworks */,
+				FFE61AAB1B631E500043C86D /* CoreGraphics.framework in Frameworks */,
+				FFE61AA91B631E490043C86D /* CoreLocation.framework in Frameworks */,
+				FFE61AA71B631E2A0043C86D /* ParseUI.framework in Frameworks */,
+				FFE61AA31B631E2A0043C86D /* Parse.framework in Frameworks */,
+				FFE61AA41B631E2A0043C86D /* ParseCrashReporting.framework in Frameworks */,
+				FFE61AA51B631E2A0043C86D /* ParseFacebookUtils.framework in Frameworks */,
+				FFE61AA21B631E2A0043C86D /* Bolts.framework in Frameworks */,
+				FFE61AA61B631E2A0043C86D /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +142,25 @@
 		FFBB2E4E1B630FB400C66D4F = {
 			isa = PBXGroup;
 			children = (
+				FFE61AC01B631EA90043C86D /* Social.framework */,
+				FFE61ABE1B631EA20043C86D /* Accounts.framework */,
+				FFE61ABC1B631E9C0043C86D /* libsqlite3.dylib */,
+				FFE61ABA1B631E920043C86D /* libz.dylib */,
+				FFE61AB81B631E8C0043C86D /* SystemConfiguration.framework */,
+				FFE61AB61B631E820043C86D /* StoreKit.framework */,
+				FFE61AB41B631E7A0043C86D /* Security.framework */,
+				FFE61AB21B631E730043C86D /* QuartzCore.framework */,
+				FFE61AB01B631E6B0043C86D /* MobileCoreServices.framework */,
+				FFE61AAE1B631E610043C86D /* AudioToolbox.framework */,
+				FFE61AAC1B631E580043C86D /* CFNetwork.framework */,
+				FFE61AAA1B631E500043C86D /* CoreGraphics.framework */,
+				FFE61AA81B631E490043C86D /* CoreLocation.framework */,
+				FFE61A9C1B631E2A0043C86D /* Bolts.framework */,
+				FFE61A9D1B631E2A0043C86D /* Parse.framework */,
+				FFE61A9E1B631E2A0043C86D /* ParseCrashReporting.framework */,
+				FFE61A9F1B631E2A0043C86D /* ParseFacebookUtils.framework */,
+				FFE61AA01B631E2A0043C86D /* ParseFacebookUtilsV4.framework */,
+				FFE61AA11B631E2A0043C86D /* ParseUI.framework */,
 				FFBB2E591B630FB400C66D4F /* Earth Memo */,
 				FFBB2E6F1B630FB400C66D4F /* Earth MemoTests */,
 				FFBB2E581B630FB400C66D4F /* Products */,
@@ -78,10 +180,23 @@
 			isa = PBXGroup;
 			children = (
 				FFBB2E5C1B630FB400C66D4F /* AppDelegate.swift */,
-				FFBB2E5E1B630FB400C66D4F /* ViewController.swift */,
+				FF852FD11B71D0760003800A /* HelpViewController.swift */,
+				FFE61A9A1B631DF10043C86D /* WelcomeViewController.swift */,
+				FFE61AC21B63215C0043C86D /* HomeViewController.swift */,
+				FFE61AC41B6322830043C86D /* MemoTimeTableViewController.swift */,
+				FFE61ACE1B6343E20043C86D /* MemoLocationViewController.swift */,
+				FFE61ACA1B632CFF0043C86D /* MemoWriteViewController.swift */,
 				FFBB2E601B630FB400C66D4F /* Main.storyboard */,
+				FFE61AC81B63293C0043C86D /* MemoTimeTableViewCell.swift */,
 				FFBB2E631B630FB400C66D4F /* Images.xcassets */,
 				FFBB2E651B630FB400C66D4F /* LaunchScreen.xib */,
+				FFDAA32C1B69C0B700983799 /* star.png */,
+				FFE61AD01B63459E0043C86D /* tabBar.png */,
+				FFE61ACC1B633D3F0043C86D /* Trial01.png */,
+				FFE61A941B631AFE0043C86D /* Home_Tab.png */,
+				FFE61A951B631AFE0043C86D /* Location_Tab.png */,
+				FFE61A961B631AFE0043C86D /* Time Tab.png */,
+				FFE61AC61B63253D0043C86D /* addMemo.png */,
 				FFBB2E5A1B630FB400C66D4F /* Supporting Files */,
 			);
 			path = "Earth Memo";
@@ -156,11 +271,13 @@
 		FFBB2E4F1B630FB400C66D4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Noctiz;
 				TargetAttributes = {
 					FFBB2E561B630FB400C66D4F = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9U8SJP9XUE;
 					};
 					FFBB2E6B1B630FB400C66D4F = {
 						CreatedOnToolsVersion = 6.4;
@@ -193,8 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFBB2E621B630FB400C66D4F /* Main.storyboard in Resources */,
+				FFDAA32D1B69C0B700983799 /* star.png in Resources */,
+				FFE61AD11B63459E0043C86D /* tabBar.png in Resources */,
 				FFBB2E671B630FB400C66D4F /* LaunchScreen.xib in Resources */,
+				FFE61AC71B63253D0043C86D /* addMemo.png in Resources */,
+				FFE61ACD1B633D3F0043C86D /* Trial01.png in Resources */,
+				FFE61A981B631AFE0043C86D /* Location_Tab.png in Resources */,
+				FFE61A971B631AFE0043C86D /* Home_Tab.png in Resources */,
 				FFBB2E641B630FB400C66D4F /* Images.xcassets in Resources */,
+				FFE61A991B631AFE0043C86D /* Time Tab.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBB2E5F1B630FB400C66D4F /* ViewController.swift in Sources */,
+				FFE61AC91B63293C0043C86D /* MemoTimeTableViewCell.swift in Sources */,
+				FFE61AC51B6322830043C86D /* MemoTimeTableViewController.swift in Sources */,
+				FFE61A9B1B631DF10043C86D /* WelcomeViewController.swift in Sources */,
+				FF852FD21B71D0760003800A /* HelpViewController.swift in Sources */,
 				FFBB2E5D1B630FB400C66D4F /* AppDelegate.swift in Sources */,
+				FFE61ACB1B632CFF0043C86D /* MemoWriteViewController.swift in Sources */,
+				FFE61ACF1B6343E20043C86D /* MemoLocationViewController.swift in Sources */,
+				FFE61AC31B63215C0043C86D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +463,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -342,9 +473,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs",
+				);
 				INFOPLIST_FILE = "Earth Memo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +491,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKs",
+				);
 				INFOPLIST_FILE = "Earth Memo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -411,6 +558,7 @@
 				FFBB2E781B630FB400C66D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFBB2E791B630FB400C66D4F /* Build configuration list for PBXNativeTarget "Earth MemoTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +567,7 @@
 				FFBB2E7B1B630FB400C66D4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        // [Optional] Power your app with Local Datastore. For more info, go to
+        // https://parse.com/docs/ios_guide#localdatastore/iOS
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("NIOLetZMgWq0F5uPShqT3OpWsOpULErW1Rok9Bij",
+            clientKey: "QOh4N8fVQrOZfF8P4Dt9wdUwnMmuSZ6KWqdwwtLv")
+        
+        //set title color of navigation bar
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.blackColor()]
+        
+        //set navigation bar item button color
+        UIBarButtonItem.appearance().tintColor = UIColor.blackColor()
+        
+        //set navigation bar BACK button color
+        UINavigationBar.appearance().tintColor = UIColor.blackColor()
+        
+        //set navigation background image
+        let navBgImage: UIImage = UIImage(named: "Trial01.png")!
+        let tabBarImage: UIImage = UIImage(named: "tabBar.png")!
+        UINavigationBar.appearance().setBackgroundImage(navBgImage, forBarMetrics: .Default)
+        
+        //setting of UITabBar
+        UITabBar.appearance().backgroundImage = tabBarImage
+        UITabBar.appearance().tintColor = UIColor.blackColor()
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         return true
     }
 
